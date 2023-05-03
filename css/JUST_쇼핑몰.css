@@ -27,6 +27,8 @@ header {
     width: 100%;
     height: 100px;
     background-color: #aaa;
+    position: relative;
+    z-index: 10;
 }
 
 header > h1 {
@@ -67,7 +69,7 @@ header > nav .gnb > li > a {
 }
 
 header > nav .gnb > li:hover > a {
-    background-color: #5f1c25;
+    background-color: #833471;
     color: #fff;
 }
 
@@ -89,7 +91,7 @@ header > nav .sub > li a {
 }
 
 header > nav .sub > li:hover a {
-    background-color: #5f1c25;
+    background-color: #b53471;
     color: #fff;
 }
 
@@ -97,8 +99,25 @@ header > nav .sub > li:hover a {
     width: 100%;
     height: 300px;
     background-color: #ddd;
+    position: relative;
 }
 
+.slide .slide_all {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide_all li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide_all img {
+    width: 1200px;
+    height: 300px;
+}
 .contents {
     width: 100%;
     height: 200px;
