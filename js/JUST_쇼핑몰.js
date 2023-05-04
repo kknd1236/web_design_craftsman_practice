@@ -16,7 +16,7 @@ $(function () {
     let index = 1;
 
     setInterval(() => {
-        if (index > 1) index = 0;
+        if (index > 2) index = 0;
         $('.slide_all>li').eq(index).siblings().animate({ top: '-300px' }, 500);
         $('.slide_all>li').eq(index).animate({ top: '0' }, 500);
         index++;
