@@ -22,4 +22,23 @@ $(function () {
         index++;
         console.log(index);
     }, 3000);
+
+    $('.notice_gal h3').click(function (e) {
+        e.preventDefault();
+        $('.notice_gal h3').removeClass('on');
+        $(this).addClass('on');
+
+        $('.notice_gal ul').hide();
+        $(this).next().show();
+    });
+
+    $('.modal  button').click(function (e) {
+        e.preventDefault();
+        $('.modal').fadeOut(500);
+    });
+
+    $('.notice li:nth-child(1)').click(function (e) {
+        e.preventDefault();
+        $('.modal').fadeIn(500);
+    });
 });
