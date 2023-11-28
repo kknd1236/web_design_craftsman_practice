@@ -1,0 +1,41 @@
+.wrap{    
+    margin: 0 auto;
+}
+
+.slide3 {
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide3 ul {
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left:0;
+    top: 0;    
+    overflow: hidden;
+}
+
+.slide3 ul li  {    
+    float: left;
+    width: 1200px;
+    height: 300px;
+    position: relative;
+}
+
+.slide3 ul li:nth-child(2) , .slide3 ul li:nth-child(3) {
+    display: none;
+}
+.slide3 ul li span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #8a2be280;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+

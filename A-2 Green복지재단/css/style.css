@@ -134,7 +134,7 @@ header nav ul.gnb > li:nth-child(1) > a {
 }
 
 header nav ul.gnb > li:hover > a {
-  background: #434748;
+  background: #3cb149;
   color: #fff;
 }
 
@@ -279,6 +279,25 @@ ul.slide li:nth-child(3) {
   width: 350px;
   height: 200px;
   text-align: center;
+  position: relative;
+  
+}
+
+.contents .sub_banner:hover {
+    opacity: .5;
+}
+
+.notice_title span {
+    font-size: 30px;
+    background-color: #3cb14980;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    cursor: pointer;
 }
 
 footer {

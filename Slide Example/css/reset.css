@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: top;
+    border: 0;
+    max-width: 100%;
+}
+
+.clearfix {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+body{
+    font-family: "맑은 고딕";
+    background: #fff;
+    color: #333;        
+}
